@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class controller2 : MonoBehaviour {
+public class controller3 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -10,8 +10,8 @@ public class controller2 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //transform.Rotate(Vector3.right * Time.deltaTime * 10, Space.World);
-        transform.Translate(Vector3.left * Time.deltaTime, Space.World);
+        //transform.Rotate(Vector3.right * Time.deltaTime * 10, Space.Self);
+        transform.Translate(Vector3.left * Time.deltaTime, Space.Self);
 	}
 }
 
